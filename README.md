@@ -8,9 +8,9 @@ The model follows the classical squid giant axon formulation. The notebook imple
 
 The membrane is represented as a capacitor coupled to sodium (Na⁺), potassium (K⁺), and leak currents:
 
-\[
-C_m \frac{dV}{dt} = I_{\mathrm{ext}} - I_{\mathrm{Na}} - I_{\mathrm{K}} - I_{\mathrm{L}}.
-\]
+$$
+C_m \frac{dV}{dt} = I_{\mathrm{ext}} - I_{\mathrm{Na}} - I_{\mathrm{K}} - I_{\mathrm{L}}
+$$
 
 Voltage-dependent gating variables describe sodium activation (`m`), sodium inactivation (`h`), and potassium activation (`n`). Their kinetics determine spike initiation, repolarization, and recovery after an action potential.
 
